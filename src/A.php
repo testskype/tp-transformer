@@ -2,8 +2,8 @@
 
  
 namespace TpTransformer;
-class A    
-
+class A  {
+	
   public function __construct() {
        
     }
