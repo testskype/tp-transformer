@@ -1,19 +1,19 @@
 {
     "name": "testskype/tp-transformer",
-    "description": "test",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "testskype",
-            "email": "testskype@163.com"
+            "name": "陈泽韦",
+            "email": "chanzewail@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {},
-	"autoload": {
-    "psr-4": {
-        "TpTransformer\\": "src/"
+    "require": {
+    	"php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zewail\\Api\\": "src/"
+        }
     }
-}
 }
