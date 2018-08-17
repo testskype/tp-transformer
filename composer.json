@@ -1,0 +1,19 @@
+{
+    "name": "testskype/tp-transformer",
+    "description": "test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "testskype",
+            "email": "testskype@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"autoload": {
+    "psr-4": {
+        "TpTransformer\\": "src/"
+    }
+}
+}
